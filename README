@@ -12,5 +12,5 @@ git submodule update --init
 
 # run the cli (in zkWasm folder)
 ```
-cargo run -- --function zkmain --output ./output --param ./param --host host --wasm ../go-host-keccak256/keccak256.wasm dry-run
+cargo run -- --function zkmain --output ./output --param ./param --host host --wasm ../go-keccak256/keccak256.wasm dry-run
 ```
